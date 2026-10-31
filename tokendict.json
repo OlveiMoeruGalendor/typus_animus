@@ -1,0 +1,755 @@
+{
+  "_meta": {
+    "language": "Draekonic (dereik + konic = name of information = language / taal)",
+    "format": "word: [id, english, afrikaans]",
+    "ranges": "1000 roots, 2000 affixes, 3000 pronouns, 4000 numbers, 5000 operators, 6000 conjunctions/markers, 7000 question words, 8000 compounds, 9000 body parts, 10000 time, 11000 verbs, 12000 tense suffixes, 13000 names/informal",
+    "tokenizing_hint": "Greedy longest-match, then split remainder into root + suffix. Hyphens in notes are visual only. Plural = repeat first syllable of last root. 'c' = k sound.",
+    "unconfirmed": "kushoshomom, ahw/ahww/ahwy, takak, fushum, moolum"
+  },
+  "roots": {
+    "emmin": [
+      1000,
+      "food",
+      "kos"
+    ],
+    "zijhit": [
+      1001,
+      "electricity",
+      "elektrisiteit"
+    ],
+    "opiopiom": [
+      1002,
+      "recursion",
+      "rekursie"
+    ],
+    "wawesh": [
+      1003,
+      "water",
+      "water"
+    ],
+    "kipik": [
+      1004,
+      "fire",
+      "vuur"
+    ],
+    "animam": [
+      1005,
+      "life",
+      "lewe"
+    ],
+    "feshin": [
+      1006,
+      "wind",
+      "wind"
+    ],
+    "gulom": [
+      1007,
+      "stone",
+      "klip"
+    ],
+    "kadak": [
+      1008,
+      "iron/metal",
+      "yster/metaal"
+    ],
+    "ralizal": [
+      1009,
+      "light",
+      "lig"
+    ],
+    "shwkh": [
+      1010,
+      "sleep",
+      "slaap"
+    ],
+    "dubum": [
+      1011,
+      "below/down",
+      "onder/af"
+    ],
+    "ilif": [
+      1012,
+      "above/up",
+      "bo/op"
+    ],
+    "doomun": [
+      1013,
+      "dark",
+      "donker"
+    ],
+    "chisis": [
+      1014,
+      "cold",
+      "koud"
+    ],
+    "tokir": [
+      1015,
+      "stop/end",
+      "stop/einde"
+    ],
+    "gubom": [
+      1016,
+      "big",
+      "groot"
+    ],
+    "tipit": [
+      1017,
+      "small",
+      "klein"
+    ],
+    "hinim": [
+      1018,
+      "be/exist",
+      "wees/bestaan"
+    ],
+    "gedop": [
+      1019,
+      "place",
+      "plek"
+    ],
+    "crecr": [
+      1020,
+      "action",
+      "aksie/doen"
+    ],
+    "weshil": [
+      1021,
+      "motion",
+      "beweging"
+    ],
+    "khomum": [
+      1022,
+      "ownership",
+      "besit"
+    ],
+    "shenir": [
+      1023,
+      "sensory input",
+      "sintuiglike waarneming"
+    ],
+    "munim": [
+      1024,
+      "join",
+      "verbind"
+    ],
+    "tik": [
+      1025,
+      "time",
+      "tyd"
+    ],
+    "dereik": [
+      1026,
+      "name",
+      "naam"
+    ],
+    "konic": [
+      1027,
+      "information/word",
+      "inligting/woord"
+    ]
+  },
+  "affixes": {
+    "-i": [
+      2000,
+      "object noun",
+      "voorwerp (selfstandige naamwoord)"
+    ],
+    "-ah": [
+      2001,
+      "verb",
+      "werkwoord"
+    ],
+    "-oo": [
+      2002,
+      "adjective/preposition/conjunction",
+      "byvoeglike naamwoord/voorsetsel/voegwoord"
+    ],
+    "-ooah": [
+      2003,
+      "adverb",
+      "bywoord"
+    ],
+    "ku-": [
+      2004,
+      "negative",
+      "ontkenning"
+    ],
+    "-ikip-": [
+      2005,
+      "agreement tag before vowel",
+      "ooreenkomsmerker voor klinker"
+    ],
+    "-ikipo-": [
+      2006,
+      "agreement tag before consonant",
+      "ooreenkomsmerker voor konsonant"
+    ]
+  },
+  "pronouns": {
+    "kwk": [
+      3000,
+      "I / self",
+      "ek / self"
+    ],
+    "kyk": [
+      3001,
+      "you",
+      "jy"
+    ],
+    "kauk": [
+      3002,
+      "other people",
+      "ander mense (hy/sy)"
+    ],
+    "kehk": [
+      3003,
+      "other non-people",
+      "ander nie-mense"
+    ],
+    "kohk": [
+      3004,
+      "other objects / thing",
+      "ander voorwerpe / ding"
+    ],
+    "kwkwyk": [
+      3005,
+      "me+you",
+      "ek en jy"
+    ],
+    "kwkwauk": [
+      3006,
+      "me+others",
+      "ek en ander"
+    ],
+    "kykyauk": [
+      3007,
+      "you+others",
+      "jy en ander"
+    ],
+    "kwkwyauk": [
+      3008,
+      "me+you+others",
+      "ek, jy en ander"
+    ],
+    "kaukauk": [
+      3009,
+      "they (people)",
+      "hulle (mense)"
+    ],
+    "kehkehk": [
+      3010,
+      "they (non-people)",
+      "hulle (nie-mense)"
+    ],
+    "kohkohk": [
+      3011,
+      "they (objects)",
+      "hulle (voorwerpe)"
+    ]
+  },
+  "numbers": {
+    "ta": [
+      4000,
+      "0",
+      "nul"
+    ],
+    "fi": [
+      4001,
+      "1",
+      "een"
+    ],
+    "sheh": [
+      4002,
+      "2",
+      "twee"
+    ],
+    "poh": [
+      4003,
+      "3",
+      "drie"
+    ],
+    "pa": [
+      4004,
+      "4",
+      "vier"
+    ],
+    "shi": [
+      4005,
+      "5",
+      "vyf"
+    ],
+    "feh": [
+      4006,
+      "6",
+      "ses"
+    ],
+    "toh": [
+      4007,
+      "7",
+      "sewe"
+    ],
+    "fita": [
+      4008,
+      "8 (octal 10)",
+      "agt (oktaal 10)"
+    ]
+  },
+  "operators": {
+    "shomom": [
+      5000,
+      "plus",
+      "plus"
+    ],
+    "shoshomom": [
+      5001,
+      "multiplication",
+      "vermenigvuldiging"
+    ],
+    "shoshoshomom": [
+      5002,
+      "exponentiation",
+      "magsverheffing"
+    ],
+    "kushomom": [
+      5003,
+      "subtraction",
+      "aftrekking"
+    ],
+    "kushoshomom": [
+      5004,
+      "division (proposed)",
+      "deling (voorgestel)"
+    ]
+  },
+  "conjunctions_and_markers": {
+    "ngoh": [
+      6000,
+      "statement end",
+      "einde van stelling (punt)"
+    ],
+    "zhoi": [
+      6001,
+      "question end / yes-no",
+      "einde van vraag / ja-nee"
+    ],
+    "munimoo": [
+      6002,
+      "and",
+      "en"
+    ],
+    "kumunimoo": [
+      6003,
+      "but",
+      "maar"
+    ],
+    "dubumoo": [
+      6004,
+      "because",
+      "omdat"
+    ],
+    "ilifoo": [
+      6005,
+      "so",
+      "dus"
+    ],
+    "tikoo": [
+      6006,
+      "when / per",
+      "wanneer / per"
+    ],
+    "iliftikoo": [
+      6007,
+      "if",
+      "as"
+    ],
+    "fioongoh": [
+      6008,
+      "firstly",
+      "eerstens"
+    ],
+    "shehoongoh": [
+      6009,
+      "or / secondly",
+      "of / tweedens"
+    ],
+    "pohoongoh": [
+      6010,
+      "thirdly",
+      "derdens"
+    ]
+  },
+  "question_words": {
+    "gedopzhoi": [
+      7000,
+      "where",
+      "waar"
+    ],
+    "kohkzhoi": [
+      7001,
+      "what",
+      "wat"
+    ],
+    "kaukzhoi": [
+      7002,
+      "who",
+      "wie"
+    ],
+    "crecrzhoi": [
+      7003,
+      "how",
+      "hoe"
+    ],
+    "dubumzhoi": [
+      7004,
+      "why",
+      "hoekom"
+    ],
+    "tikzhoi": [
+      7005,
+      "when / how long",
+      "wanneer / hoe lank"
+    ]
+  },
+  "compounds": {
+    "kipikemmin": [
+      8000,
+      "cooked food",
+      "gaar kos"
+    ],
+    "zijhitanimam": [
+      8001,
+      "AI (living electricity)",
+      "KI (lewende elektrisiteit)"
+    ],
+    "opiopiomanimam": [
+      8002,
+      "reproduction",
+      "voortplanting"
+    ],
+    "waweshemmin": [
+      8003,
+      "beverage",
+      "drankie"
+    ],
+    "kuanimam": [
+      8004,
+      "death",
+      "dood"
+    ],
+    "kutokir": [
+      8005,
+      "infinity",
+      "oneindigheid"
+    ],
+    "animamkutokir": [
+      8006,
+      "immortal",
+      "onsterflik"
+    ],
+    "animamtokir": [
+      8007,
+      "corpse",
+      "lyk"
+    ],
+    "ralizaltokir": [
+      8008,
+      "night",
+      "nag"
+    ],
+    "gulomdubum": [
+      8009,
+      "ground",
+      "grond"
+    ],
+    "feshinilif": [
+      8010,
+      "sky",
+      "lug/hemel"
+    ],
+    "waweshgulom": [
+      8011,
+      "mud",
+      "modder"
+    ],
+    "kuwawesh": [
+      8012,
+      "dry",
+      "droog"
+    ],
+    "kukipik": [
+      8013,
+      "extinguished",
+      "geblus"
+    ],
+    "kuralizal": [
+      8014,
+      "dim",
+      "dof"
+    ],
+    "opiopiomzijhitcrecrah": [
+      8015,
+      "think",
+      "dink"
+    ],
+    "tipitweshilshenir": [
+      8016,
+      "sound",
+      "klank/geluid"
+    ],
+    "tipitweshil": [
+      8017,
+      "vibration",
+      "vibrasie/tril"
+    ],
+    "animamanimam": [
+      8018,
+      "body",
+      "liggaam"
+    ],
+    "animamgulom": [
+      8019,
+      "strong person (compliment)",
+      "sterk mens (kompliment)"
+    ],
+    "animamgedop": [
+      8020,
+      "body part",
+      "liggaamsdeel"
+    ],
+    "waweshkuanimam": [
+      8021,
+      "drowning",
+      "verdrinking"
+    ],
+    "kipikkuanimam": [
+      8022,
+      "burning",
+      "verbranding"
+    ],
+    "chisiskuanimam": [
+      8023,
+      "freezing",
+      "bevriesing"
+    ],
+    "kuemminkuanimam": [
+      8024,
+      "starvation",
+      "uithongering"
+    ],
+    "draekonic": [
+      8025,
+      "language (dereik + konic, contracted)",
+      "taal"
+    ]
+  },
+  "body_parts": {
+    "ralizalanimamgedop": [
+      9000,
+      "eye",
+      "oog"
+    ],
+    "emminanimamgedop": [
+      9001,
+      "mouth",
+      "mond"
+    ],
+    "feshinanimamgedop": [
+      9002,
+      "nose",
+      "neus"
+    ],
+    "tipitweshilsheniranimamgedop": [
+      9003,
+      "ear",
+      "oor"
+    ],
+    "crecranimamgedop": [
+      9004,
+      "arm/hand",
+      "arm/hand"
+    ],
+    "weshilanimamgedop": [
+      9005,
+      "leg/foot",
+      "been/voet"
+    ],
+    "tipitcrecranimamgedop": [
+      9006,
+      "finger",
+      "vinger"
+    ],
+    "tipitweshilanimamgedop": [
+      9007,
+      "toe",
+      "toon"
+    ]
+  },
+  "time": {
+    "tipitik": [
+      10000,
+      "second",
+      "sekonde"
+    ],
+    "kutipitik": [
+      10001,
+      "minute",
+      "minuut"
+    ],
+    "gubomtik": [
+      10002,
+      "hour",
+      "uur"
+    ],
+    "ralizaltik": [
+      10003,
+      "daytime",
+      "dagtyd"
+    ],
+    "ralizaldoomuntik": [
+      10004,
+      "day cycle",
+      "dagsiklus"
+    ],
+    "ralizalkuralizaltik": [
+      10005,
+      "day cycle (formal)",
+      "dagsiklus (formeel)"
+    ],
+    "doomuntik": [
+      10006,
+      "night-time",
+      "nagtyd"
+    ],
+    "tikilifoo": [
+      10007,
+      "later",
+      "later"
+    ],
+    "tikdubumoo": [
+      10008,
+      "earlier",
+      "vroeër"
+    ],
+    "tikweshiloo": [
+      10009,
+      "while",
+      "terwyl"
+    ],
+    "tikkutokiroo": [
+      10010,
+      "always",
+      "altyd"
+    ],
+    "tikkuoo": [
+      10011,
+      "never",
+      "nooit"
+    ]
+  },
+  "verbs": {
+    "emminah": [
+      11000,
+      "eat",
+      "eet"
+    ],
+    "khomumah": [
+      11001,
+      "own",
+      "besit"
+    ],
+    "khomumweshilah": [
+      11002,
+      "give/take/carry",
+      "gee/neem/dra"
+    ],
+    "ralizalshenirah": [
+      11003,
+      "see",
+      "sien"
+    ],
+    "tipitweshilshenirah": [
+      11004,
+      "hear",
+      "hoor"
+    ],
+    "feshinshenirah": [
+      11005,
+      "smell",
+      "ruik"
+    ],
+    "emminshenirah": [
+      11006,
+      "taste",
+      "proe"
+    ],
+    "kipikcrecrah": [
+      11007,
+      "cook",
+      "kook"
+    ],
+    "waweshweshilah": [
+      11008,
+      "swim",
+      "swem"
+    ],
+    "feshinweshilah": [
+      11009,
+      "fly",
+      "vlieg"
+    ],
+    "shomomah": [
+      11010,
+      "to add",
+      "optel"
+    ],
+    "shoshomomah": [
+      11011,
+      "to multiply",
+      "vermenigvuldig"
+    ]
+  },
+  "tense_suffixes": {
+    "aaah": [
+      12000,
+      "present",
+      "teenwoordige tyd"
+    ],
+    "ahy": [
+      12001,
+      "future",
+      "toekomstige tyd"
+    ],
+    "ahyy": [
+      12002,
+      "future (pure)",
+      "toekoms (suiwer)"
+    ],
+    "ahyw": [
+      12003,
+      "will have needed",
+      "sal nodig gehad het"
+    ]
+  },
+  "names_and_informal": {
+    "kwkwk": [
+      13000,
+      "I (plural form, used for the speaker's own reasons)",
+      "ek (meervoudsvorm, om redes van die spreker)"
+    ],
+    "anima": [
+      13001,
+      "the first Name",
+      "die eerste Naam"
+    ],
+    "olvei": [
+      13002,
+      "name",
+      "naam"
+    ],
+    "xander": [
+      13003,
+      "name",
+      "naam"
+    ]
+  }
+}

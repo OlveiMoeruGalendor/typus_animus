@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+license = {text = "MIT"}
+name = "typus-animus"
+version = "0.3.1"
+description = "A GPT-style decoder whose depth comes from recursive generation rather than from stacking distinct layers."
+requires-python = ">=3.10"
+dependencies = ["torch>=2.1"]
+
+[project.scripts]
+typus-animus = "typus_animus.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["typus_animus*"]
