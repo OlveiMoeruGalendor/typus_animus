@@ -1,0 +1,1 @@
+# Draekonic\n\nConstructed language for Anima AI.\n\n## Tokenization Rules\n- Greedy longest-match, then split remainder into root + suffix.\n- Plural = repeat first syllable of last root.\n- 'c' = k sound.\n- Hyphens in notes are visual only.\n\n## Dictionary\nSee 	okendict.json for the full dictionary with categories and ID ranges.\n
